@@ -1,14 +1,23 @@
-import React from "react";
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Headline from './components/Headline';
+import Works from './components/Works';
 
-export default function App() {
+function App() {
   return (
-    <main>
-      <Navbar />
+    <div className="App bg-navy">
+      <div className="flex flex-col h-screen">
+        <Header />
+        <Headline />
+      </div>
+      <Works />
       <About />
-      <Projects />
-      <Skills />
-      <Testimonials />
       <Contact />
-    </main>
+      <Footer />
+    </div>
   );
 }
+
+export default App;
