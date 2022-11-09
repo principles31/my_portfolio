@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import WOW from 'wowjs';
-import logoIcon from '../assets/icons/sh_logo2.svg';
+// import logoIcon from '../assets/icons/sh_logo2.svg';
 import menuIcon from '../assets/icons/square.svg';
 import closeIcon from '../assets/icons/close.svg';
 import Resume from '../assets/files/_Resume.pdf';
@@ -47,7 +47,7 @@ const Header = () => {
         <nav className="flex justify-between items-center">
           <div>
             <a href="/" id="nav-link">
-              <img className="wow bounceInDown" src={logoIcon} alt="EM" />
+              {/* <img className="wow bounceInDown" src={logoIcon} alt="EM" /> */}
             </a>
           </div>
           <div className="wow fadeInDown hidden md:block">
