@@ -63,14 +63,14 @@ const liveVersionLink = {
     },
     {
       id: 6,
-      name: 'PraisyDram Concert',
-      description: `The website is based on a yearly concert of Praises and Drama aimed at
-                    Evangelizing to the people of God. It is organised by Catholic students in KNUST and
-                    it's popularly known as PRAISYDRAM`,
+      name: 'JavaScript_Capstone_project',
+      description: `it is a movie website which fetches movies from TVmaze API and displays them,
+                    where we used Microverse involvement API for adding likes, 
+                    comments and reservations.`,
       image: './assets/images/Desktop-Snapshoot-Portfolio.png',
       technologies: ['JavaScript', 'HTML', 'CSS'],
-      'live-version-link': { ...liveVersionLink, 'link-href': 'https://achilles-dev.github.io/HTML-CSS-JavaScript-capstone-project/' },
-      'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/HTML-CSS-JavaScript-capstone-project' },
+      'live-version-link': { ...liveVersionLink, 'link-href': 'https://principles31.github.io/Javascript_Capstone_Project/dist/' },
+      'source-link': { ...sourceLink, 'source-href': 'https://github.com/principles31/Javascript_Capstone_Project' },
     },
   ];
   
