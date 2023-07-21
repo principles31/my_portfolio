@@ -10,7 +10,8 @@ const Headline = () => (
       <h2 className="wow fadeInRight text-3xl md:text-5xl mb-5 text-yellow-100">I Develop Application Softwares.</h2>
       <p className="wow fadeInUp lg:w-1/2 md:w-3/4 tracking-widest">
         Hello! I am a software Developer! I can help you build a product, feature or websit.
-        Take a look at my works. If you like what you see and have a project you need coded, don't hesitate to contact me.
+        Take a look at my works. If you like what you see and have a project you need coded,
+        don't hesitate to contact me.
         I am based in Accra - Ghana.
       </p>
     </div>
@@ -21,4 +22,3 @@ const Headline = () => (
 );
 
 export default Headline;
-  
