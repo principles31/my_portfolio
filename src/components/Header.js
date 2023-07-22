@@ -3,7 +3,7 @@ import WOW from 'wowjs';
 // import logoIcon from '../assets/icons/sh_logo2.svg';
 import menuIcon from '../assets/icons/square.svg';
 import closeIcon from '../assets/icons/close.svg';
-import Resume from '../assets/files/_Resume.pdf';
+import Resume from '../assets/files/Emmanuel Resume.pdf';
 
 const Header = () => {
   const [menuTab, setMenuTab] = useState('hidden');
